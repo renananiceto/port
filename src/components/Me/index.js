@@ -4,9 +4,9 @@ import React from "react";
 import * as S from "./styles";
 
 //Icons
-import { Twitter } from "@styled-icons/boxicons-logos/Twitter";
 import { Linkedin } from "@styled-icons/boxicons-logos/Linkedin";
-import { Facebook } from "@styled-icons/boxicons-logos/Facebook";
+import { Github } from "@styled-icons/boxicons-logos/Github";
+
 
 import mamaco from "../../images/mamaco.jpg";
 
@@ -26,24 +26,18 @@ export default function index() {
             <a
               href="https://www.linkedin.com/in/renan-aniceto-07b08b20b/"
               target="_blank"
+              rel="noreferrer"
             >
               <Linkedin />
             </a>
           </div>
           <div>
             <a
-              href="https://www.facebook.com/renan.ferreira.965"
-              target="_blank"
-            >
-              <Facebook />
-            </a>
-          </div>
-          <div>
-            <a
               href="https://www.linkedin.com/in/renan-aniceto-07b08b20b/"
               target="_blank"
+              rel="noreferrer"
             >
-              <Twitter />
+              <Github />
             </a>
           </div>
         </S.BoxRedes>

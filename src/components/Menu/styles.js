@@ -1,10 +1,11 @@
 import styled from "styled-components";
+import {Link} from "gatsby"
 
 export const Container = styled.div`
   background-color: #222;
   color: #fff;
-  height: 100vh;
-  :hover: {
+  min-height: 100vh;
+  :hover {
     color: #04b4e0;
   }
 `;
@@ -33,7 +34,7 @@ export const ListItem = styled.li`
   }
 `;
 
-export const A = styled.a`
+export const A = styled(Link)`
   text-decoration: none;
   color: #fff;
   transition: 0.5s;

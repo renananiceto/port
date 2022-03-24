@@ -2,11 +2,13 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background-color: #444;
-  -webkit-box-shadow: 11px 9px 13px -4px rgba(0, 0, 0, 0.62);
-  box-shadow: 11px 9px 13px -4px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: 11px 0px 13px -4px rgba(0, 0, 0, 0.62);
+  box-shadow: 11px 0px 13px -4px rgba(0, 0, 0, 0.62);
+  min-height: 100vh;
+  min-width: 20%;
 `;
 export const Wrapper = styled.div`
-  padding: 7rem 6rem;
+  padding: 7rem 0rem;
 `;
 
 export const BoxRedes = styled.div`

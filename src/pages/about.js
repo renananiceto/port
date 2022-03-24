@@ -1,28 +1,16 @@
-import * as React from "react"
-import { createGlobalStyle } from 'styled-components'
+import React, {useEffect} from 'react'
 
-import Menu from '../components/Menu'
-import Me from '../components/Me'
+import { Layout } from "../components/Layout";
+import { About } from "../components/About"
 
-const GlobalStyle = createGlobalStyle`
-  *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: 'Source Sans 3', sans-serif;
-  }
-`
 
 // markup
 const about = () => {
   return (
-    <main style={{display:'flex', backgroundColor:'#222', width:'100%'}}>
-      <GlobalStyle />
-      <Menu />
-      <Me />
-    </main>
-  )
-}
+    <Layout>
+      <About />
+    </Layout>
+  );
+};
 
-export default about
+export default about;

@@ -19,37 +19,37 @@ export default function index() {
       <S.Wrapper>
         <S.List>
           <S.ListItem>
-            <S.A href="/">
+            <S.A to="/">
               <Home />
               Home
             </S.A>
           </S.ListItem>
           <S.ListItem>
-            <S.A href="/about">
+            <S.A to="/about">
               <User />
               About Me
             </S.A>
           </S.ListItem>
           <S.ListItem>
-            <S.A href="">
+            <S.A to="/">
               <GraduationCap />
               Resume
             </S.A>
           </S.ListItem>
           <S.ListItem>
-            <S.A href="">
+            <S.A to="/">
               <WorkOutline />
               Portifolio
             </S.A>
           </S.ListItem>
           <S.ListItem>
-            <S.A href="">
+            <S.A to="/">
               <BookAlt />
               Blog
             </S.A>
           </S.ListItem>
           <S.ListItem>
-            <S.A href="">
+            <S.A to="/">
               <EmailOutline />
               Contact
             </S.A>
