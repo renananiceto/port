@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "./styles";
-import { Computer } from "@styled-icons/material-rounded/Computer";
+import { Input } from "../input";
 
 export const About = (props) => {
   return (
@@ -41,16 +41,41 @@ export const About = (props) => {
           <h2>
             O que <span>eu faço</span>
           </h2>
-          <div>
-            <S.Cpt />
-            <S.Paragraph>Desenvolvimento de sites</S.Paragraph>
-            <p>
-              Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num
-              copo é motivis de denguis.Paisis, filhis, espiritis
-              santis.Interagi no mé, cursus quis, vehicula ac nisi.Quem num
-              gosta di mé, boa gentis num é.
-            </p>
-          </div>
+          <S.Box>
+            <S.BoxParagraph>
+              <S.Cpt />
+              <S.Paragraph>Desenvolvimento de sites</S.Paragraph>
+              <p>
+                Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num
+                copo é motivis de denguis.Paisis, filhis, espiritis
+                santis.Interagi no mé, cursus quis, vehicula ac nisi.Quem num
+                gosta di mé, boa gentis num é.
+              </p>
+            </S.BoxParagraph>
+            <S.BoxParagraph>
+              <S.Cpt2 />
+              <S.Paragraph>Montagem e manutenção de micro</S.Paragraph>
+              <p>
+                Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num
+                copo é motivis de denguis.Paisis, filhis, espiritis
+                santis.Interagi no mé, cursus quis, vehicula ac nisi.Quem num
+                gosta di mé, boa gentis num é.
+              </p>
+            </S.BoxParagraph>
+          </S.Box>
+          <S.Box>
+            <S.BoxParagraph>
+              <S.Cpt3 />
+              <S.Paragraph>Professor voluntario</S.Paragraph>
+              <p>
+                Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num
+                copo é motivis de denguis.Paisis, filhis, espiritis
+                santis.Interagi no mé, cursus quis, vehicula ac nisi.Quem num
+                gosta di mé, boa gentis num é.
+              </p>
+            </S.BoxParagraph>
+
+          </S.Box>
         </div>
       </S.Wrapper>
     </S.Cont>

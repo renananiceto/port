@@ -31,13 +31,13 @@ export default function index() {
             </S.A>
           </S.ListItem>
           <S.ListItem>
-            <S.A to="/">
+            <S.A to="/resumo">
               <GraduationCap />
               Resume
             </S.A>
           </S.ListItem>
           <S.ListItem>
-            <S.A to="/">
+            <S.A to="/teste">
               <WorkOutline />
               Portifolio
             </S.A>

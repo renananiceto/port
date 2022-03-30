@@ -7,7 +7,6 @@ import * as S from "./styles";
 import { Linkedin } from "@styled-icons/boxicons-logos/Linkedin";
 import { Github } from "@styled-icons/boxicons-logos/Github";
 
-
 import mamaco from "../../images/mamaco.jpg";
 
 export default function index() {
@@ -22,24 +21,26 @@ export default function index() {
           <p>Dev Front-end</p>
         </S.BoxName>
         <S.BoxRedes>
-          <div>
-            <a
-              href="https://www.linkedin.com/in/renan-aniceto-07b08b20b/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Linkedin />
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.linkedin.com/in/renan-aniceto-07b08b20b/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Github />
-            </a>
-          </div>
+          <section>
+            <div>
+              <a
+                href="https://www.linkedin.com/in/renan-aniceto-07b08b20b/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Linkedin />
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.linkedin.com/in/renan-aniceto-07b08b20b/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Github />
+              </a>
+            </div>
+          </section>
         </S.BoxRedes>
       </S.Wrapper>
     </S.Container>

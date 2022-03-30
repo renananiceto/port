@@ -15,6 +15,9 @@ export const BoxRedes = styled.div`
   color: #ffff;
   display: flex;
   justify-content: space-around;
+  section{
+    display:flex;
+  }
 
   a {
     text-decoration: none;

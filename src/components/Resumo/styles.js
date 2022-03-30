@@ -1,8 +1,4 @@
 import styled from "styled-components";
-import { Computer } from '@styled-icons/material-rounded/Computer'
-import { Tools } from '@styled-icons/fa-solid/Tools'
-import { GraduationCap } from '@styled-icons/fa-solid/GraduationCap'
-
 
 export const Cont = styled.div`
   width: 100%;
@@ -10,6 +6,13 @@ export const Cont = styled.div`
   p {
     color: #b9b9b9;
     font-size: 19px;
+  }
+  li {
+    color: #b9b9b9;
+    font-size: 19px;
+  }
+  ul {
+    padding: 1rem 0;
   }
 `;
 
@@ -19,8 +22,9 @@ export const Wrapper = styled.div`
   h1 {
     :after {
       content: "";
+      z-index: 0;
       position: relative;
-      left: 8rem;
+      left: 6rem;
       bottom: 16px;
       display: flex;
       background-image: radial-gradient(#04b4e0 5%, #f8f8f800 20%);
@@ -35,8 +39,9 @@ export const Wrapper = styled.div`
     padding: 4rem 0 1rem 0rem;
     :after {
       content: "";
+      z-index: 0;
       position: relative;
-      left: 8rem;
+      left: 6rem;
       bottom: 16px;
       display: flex;
       background-image: radial-gradient(#04b4e0 5%, #f8f8f800 20%);
@@ -51,47 +56,25 @@ export const Wrapper = styled.div`
     color: #04b4e0;
   }
 `;
-export const BoxAddress = styled.div`
-  display: flex;
-  padding-top: 0.8rem;
-`;
 
-export const Sobre = styled.div`
-  width: 65%;
-  padding-right: 4rem;
+export const BoXDescription = styled.div`
+  text-align: right;
+  min-width: 12%;
+  border-right: solid 1px #949494;
+  padding-right: 15px;
+  padding-bottom: 2rem;
   line-height: 2rem;
 `;
-
-export const Address = styled.section`
-  line-height: 2rem;
-`;
-
-export const Cpt = styled(Computer)`
-  width: 60px;
-  padding: 1rem 0;
-  color: #04b4e0;
-`
-export const Cpt2 = styled(Tools)`
-  width: 60px;
-  padding: 1rem 0;
-  color: #04b4e0;
-`
-export const Cpt3 = styled(GraduationCap)`
-  width: 60px;
-  padding: 1rem 0;
-  color: #04b4e0;
-`
-export const Paragraph = styled.p`
-font-size: 30px;
-font-weight: bolder;
-color: #FFF !important;
-`
-export const BoxParagraph = styled.div`
-width: 50%;
-line-height: 2rem;
-padding: 1rem;
-`
 
 export const Box = styled.div`
- display: flex;
-`
+  display: flex;
+`;
+
+export const BoxParagraph = styled.div`
+  padding-left: 15px;
+`;
+
+export const BoxEx = styled.div`
+  line-height: 2rem;
+  padding-left: 12rem;
+`;
